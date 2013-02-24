@@ -1,3 +1,10 @@
+@keyframes headeranim
+{
+0% {color: red;}
+100% {color: yellow;}
+}
+
+
 body{
 	width: 1000px;
 	margin: 0 auto;
@@ -6,14 +13,25 @@ body{
 }
 
 header{
+	animation: headeranim 5s linear 2s infinite alternate;
 	text-align: center;
-	color: white;
+	color: rgb(200,200,200);
 	border-bottom: 2px silver solid;
 }
 
 header h1{
 	text-shadow: 1px 1px 2px black;
 	font-family: 'Wendy One', sans-serif;
+}
+
+.logoutBott{
+	float: right;
+	font-size: 12px;
+}
+
+.logoutBott:hover{
+	float: right;
+	font-size: 15px;
 }
 
 nav{
@@ -55,4 +73,29 @@ footer{
 	text-align: center;
 	font-family: 'Wendy One', sans-serif;
 	border-top: 2px silver solid;
+	color: gray;
+}
+
+.loginTable{
+	font-family: sans-serif;
+	margin: 0 auto;
+	margin-top: 25%;
+	padding: 60px;
+	background-color: rgba(180,180,180,0.8);
+	box-shadow: 5px 5px 5px black;
+	border-radius: 5px;
+}
+
+.button{
+	font-family: sans-serif;
+	font-weight: bold;
+	height: 30px;
+	border-radius: 4px;
+}
+
+.button a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
 }

@@ -14,5 +14,6 @@
 					<a href="#">Home</a>
 					<a href="#">View</a>
 					<a href="#">Vote</a>
+					<a href="login.php" class="logoutBott">Logout</a>
 				</nav>
 			</header>
