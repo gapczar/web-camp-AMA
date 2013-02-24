@@ -1,0 +1,58 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url("../bg/images.jpg");
+	background-repeat: no-repeat;
+}
+
+header{
+	text-align: center;
+	color: white;
+	border-bottom: 2px silver solid;
+}
+
+header h1{
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Wendy One', sans-serif;
+}
+
+nav{
+	font-family: 'Wendy One', sans-serif;
+	margin-bottom: 5px;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	color: rgb(0,0,0);
+}
+
+nav a:hover{
+	background: rgb(255,255,255);
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	color: rgb(100,100,255);
+	border-radius: 2px;
+}
+
+.divBody{
+	background: rgba(255,255,255,0.8);
+	padding: 5px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px black;
+}
+
+section{
+	height: 850px;
+	width: 95%;
+	overflow: auto;
+}
+
+footer{
+	padding: 10px;
+	text-align: center;
+	font-family: 'Wendy One', sans-serif;
+	border-top: 2px silver solid;
+}
