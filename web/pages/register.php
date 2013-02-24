@@ -14,7 +14,9 @@
 
 <section>
 	<table class="loginTable">
-		<form name="loginForm" id="loginForm" action="../control.php">
+
+				<form name="loginForm" id="loginForm" action="save.php" method="POST">
+
 			<tr>
 				<td>
 					<label for="user">USERNAME: </label>

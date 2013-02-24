@@ -13,8 +13,8 @@
 			</header>
 
 <section>
-	<table class="loginTable">
-		<form name="loginForm" id="loginForm">
+	<table class="loginTable"> 
+		<form name="loginForm" id="loginForm" action="check_login.php" method="POST">
 			<tr>
 				<td>
 					<label for="username">Username: </label>

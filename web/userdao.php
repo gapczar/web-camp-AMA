@@ -1,12 +1,13 @@
 <?php
 	
-	include 'basedao.php';
+	include ('basedao.php');
 
 	class UserDAO extends BaseDAO{
 
 		function addUser($username, $password, $emailAdd){
+			$status = "voter";
 			$this->open_conn();
-			$stmt = $this->conn->prepare("INSERT INTO 'users' VALUES(null, ?, ?, ?)");
+			$stmt = $this->conn->prepare("INSERT INTO 'users' VALUES(null, ?, ?, ?, '$status')");
 			$stmt->bindParam(1, $username);
 			$stmt->bindParam(2, $password);
 			$stmt->bindParam(3, $emailAdd);
