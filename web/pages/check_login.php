@@ -10,7 +10,6 @@
 
 		header("Location: home.php");
 	}else{
-		//header("Location: check_login.php");
 		return false;
 	}
 ?>
