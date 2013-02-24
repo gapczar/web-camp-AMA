@@ -9,6 +9,9 @@
 				<td>App Name</td>
 				<td>Votes</td>
 			</tr>
+			<?php
+				include 'getAllapps.php';
+			?>
 		</table>
 	</section>
 
