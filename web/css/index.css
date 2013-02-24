@@ -1,0 +1,21 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header{
+	text-align: center;
+	color: white;
+}
+
+header h1{
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Wendy One', sans-serif;
+}
+
+.divBody{
+	background: rgba(0,0,0,0.5);
+	padding: 5px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px black;
+}
