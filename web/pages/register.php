@@ -30,7 +30,7 @@
 					<label for="pass">PASSWORD : </label>
 				</td>
 				<td>
-					<input type="pass" name="password" placeholder="Password"/>
+					<input type="password" name="password" placeholder="Password"/>
 				</td>
 			</tr>
 			<tr>
