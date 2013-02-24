@@ -22,7 +22,7 @@ header{
 	-moz-animation: headeranim 5s linear 2s infinite alternate;
 	-webkit-animation: headeranim 5s linear 2s infinite alternate;
 	text-align: center;
-	color: rgb(200,200,200);
+	color: rgb(255,0,0);
 	border-bottom: 2px silver solid;
 }
 
@@ -69,12 +69,23 @@ nav a:hover{
 	padding: 5px;
 	border-radius: 20px;
 	box-shadow: 2px 2px 2px black;
+	overflow: auto;
 }
 
 section{
 	height: 850px;
 	width: 95%;
 	overflow: auto;
+}
+
+.topListSec{
+	height: 850px;
+	width: 95%;
+	overflow: hidden;
+}
+
+.topListSec h2{
+	text-decoration: blink;
 }
 
 section h2{
@@ -138,4 +149,40 @@ footer{
 	color: black;
 	font-family: sans-serif;
 	font-weight: bold;
+}
+
+.topList div{
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 7px;
+	border: 1px silver solid;
+	box-shadow: 1px 1px 1px black;
+	margin-left: 250px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+div .top1{
+	margin-left: 250px;
+}
+div .top2{
+	top: -220px;
+	margin-left: 500px;
+}
+div .top3{
+	top: -200px;
+	margin-left: 250px;
+}
+div .top4{
+	top: -420px;
+	margin-left: 500px;
+}
+div .top5{
+	top: -400px;
+	margin-left: 375px;
 }

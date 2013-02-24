@@ -43,7 +43,7 @@
 				<td></td>
 				<td>
 					<a href="login.php"><button type="button" class="button">CANCEL</button></a>
-					<input type="submit" value="REGISTER" class="button"/>
+					<input type="submit" value="SIGNUP" class="button"/>
 				</td>
 			</tr>
 		</form>
