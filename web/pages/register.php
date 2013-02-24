@@ -14,13 +14,13 @@
 
 <section>
 	<table class="loginTable">
-		<form name="loginForm" id="loginForm">
+		<form name="loginForm" id="loginForm" action="../control.php">
 			<tr>
 				<td>
 					<label for="user">USERNAME: </label>
 				</td>
 				<td>
-					<input type="text" name="user" placeholder="Username"/>
+					<input type="text" name="username" placeholder="Username"/>
 				</td>
 			</tr>
 			<tr>
@@ -28,7 +28,7 @@
 					<label for="pass">PASSWORD : </label>
 				</td>
 				<td>
-					<input type="pass" name="pass" placeholder="Password"/>
+					<input type="pass" name="password" placeholder="Password"/>
 				</td>
 			</tr>
 			<tr>
@@ -36,7 +36,7 @@
 					<label for="email">EMAIL : </label>
 				</td>
 				<td>
-					<input type="email" name="email" placeholder="Email"/>
+					<input type="email" name="emailAdd" placeholder="Email"/>
 				</td>
 			</tr>
 			<tr>
