@@ -1,4 +1,10 @@
-@keyframes headeranim
+@-webkit-keyframes headeranim
+{
+0% {color: red;}
+100% {color: yellow;}
+}
+
+@-moz-keyframes headeranim
 {
 0% {color: red;}
 100% {color: yellow;}
@@ -13,7 +19,8 @@ body{
 }
 
 header{
-	animation: headeranim 5s linear 2s infinite alternate;
+	-moz-animation: headeranim 5s linear 2s infinite alternate;
+	-webkit-animation: headeranim 5s linear 2s infinite alternate;
 	text-align: center;
 	color: rgb(200,200,200);
 	border-bottom: 2px silver solid;
@@ -74,7 +81,8 @@ section h2{
 	font-family: sans-serif;
 	font-size: 23px;
 	padding: 15px;
-	background: linear-gradient(to top, transparent 0%, black 120%);
+	background: -webkit-linear-gradient(to top, transparent 0%, black 120%);
+	background: -moz-linear-gradient(to top, transparent 0%, black 120%);
 	color: white;
 	text-align: center;
 	text-shadow: -2px 2px 2px black;
@@ -110,7 +118,8 @@ footer{
 .tableHeader{
 	font-family: inherit;
 	font-size: 15px;
-	background: linear-gradient(to top, transparent 0%, rgb(100,255,100) 100%);
+	background: -webkit-linear-gradient(to top, transparent 0%, rgb(100,255,100) 100%);
+	background: -moz-linear-gradient(to top, transparent 0%, rgb(100,255,100) 100%);
 	color: black;
 	margin: 0 auto;
 	width: 80%;	
