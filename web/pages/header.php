@@ -11,9 +11,9 @@
 			<header>
 				<h1>Poll for Mobile APPS</h1>
 				<nav>
-					<a href="#">Home</a>
-					<a href="#">View</a>
-					<a href="#">Vote</a>
+					<a href="home.php">Home</a>
+					<a href="view.php">View</a>
+					<a href="vote.php">Vote</a>
 					<a href="login.php" class="logoutBott">Logout</a>
 				</nav>
 			</header>
