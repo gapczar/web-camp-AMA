@@ -1,7 +1,7 @@
 <?php
 
 	class BaseDAO{
-
+		
 		protected $conn = null;
 
 		function open_conn(){
